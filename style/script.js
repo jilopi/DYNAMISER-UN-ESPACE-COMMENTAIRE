@@ -1,10 +1,5 @@
-// faire en sorte que la page ne recharge pas 
-// verifier les champs 
-//  si tous les champs sont bien remplis c'est bon 
-// si prenom,nom ou commentaire sont vide alort afficher le message d'erreur 
 
 const form = document.querySelector('form');
-
 
 form.addEventListener('submit',function(e)
 {
